@@ -77,3 +77,38 @@ Construir agentes IA customizados em produção
 
                                               ## 📝 Referência - Última Atualização
                                               Semana 19 (Maio 4-8, 2026)
+
+
+### 9. 🔄 GitHub Actions
+Automação de CI/CD direto no GitHub
+- Plataforma de Continuous Integration/Delivery
+- - Workflows em `.github/workflows/` (YAML)
+  - - Dispara em eventos (PR, push, issues, schedule)
+    - - Roda em VMs (Linux, Windows, macOS) ou self-hosted runners
+      - - Docs: https://docs.github.com/en/enterprise-cloud@latest/actions/get-started/understand-github-actions
+       
+        - **Componentes:**
+        - - Workflows: Arquivos YAML com automação
+          - - Events: Atividades que disparam execução
+            - - Jobs: Conjunto de steps que rodam junto
+              - - Actions: Tarefas reutilizáveis
+                - - Runners: Máquinas que executam os jobs
+                 
+                  - **Casos de Uso:**
+                  - - Build e test em PRs
+                    - - Deploy automático em releases
+                      - - Auto-label em issues
+                        - - Agendamento de tarefas
+                          - - Integração com ferramentas externas
+                           
+                            - ---
+
+                            ## 📚 Referência Completa
+
+                            Índice oficial: https://code.claude.com/docs/llms.txt
+                            GitHub Actions: https://docs.github.com/en/enterprise-cloud@latest/actions/
+
+                            ---
+
+                            ## 📝 Última Atualização
+                            Adicionado: GitHub Actions (Maio 11, 2026)
