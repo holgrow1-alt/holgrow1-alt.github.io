@@ -265,3 +265,110 @@ Page_DownPage_DownPa
                                                                                           -
                                                                                           - **Fonte:** getdesign.md - Production-grade DESIGN.md Collection (Maio 2026)
                                                                                           - ge_Down
+
+
+---
+
+## 🎬 15. Remotion - Make Videos Programmatically (Skill Explosiva!)
+
+**Status:** ⚡ **BOMBANDO NO GITHUB - 150k+ downloads, 46k stars**
+
+**O que é:**
+- Framework para criar vídeos MP4 reais com React
+- - Parametrize content, render server-side e build aplicações de vídeo
+  - - Code-first video creation: use React para criar vídeos sofisticados
+    - - Escalável: render localmente, no servidor ou serverless (Lambda)
+     
+      - **Principais Features:**
+      - **Compose with Code:** Use React + TypeScript para criar vídeos
+      - - **Edit Dynamically:** Parametrize vídeos passando dados
+        - - **Remotion Studio:** IDE visual para desenvolvimento
+          - - **Remotion Player:** Embed player em aplicações
+            - - **Remotion Editor Starter:** Template completo para video editors customizados
+              - - **Remotion Lambda:** Render escalável serverless
+               
+                - **Use Cases Reais:**
+                - - Music visualization (gerar vídeos de música automaticamente)
+                  - - Captions & subtitles automation
+                    - - Screencast recording programático
+                      - - Year in review videos (como Spotify Wrapped)
+                        - - Social media content automation
+                          - - Template-based video generation
+                            - - Banger.Show: 3D visual creation tool
+                             
+                              - **Estatísticas Impressionantes:**
+                              - - 46k GitHub stars
+                                - - 150k+ npm downloads (EXPLOSIVO!)
+                                  - - 8000+ Discord members
+                                    - - 35+ templates & examples
+                                      - - 300+ contributors
+                                        - - 800 páginas de documentação
+                                         
+                                          - **Como Usar:**
+                                          - ```
+                                            $ npx create-video@latest
+                                            ```
+
+                                            Templates disponíveis:
+                                            - Blank starter
+                                            - - Hello World exemplo
+                                              - - Next.js integrado
+                                                - - React Router
+                                                  - - Find a template
+                                                   
+                                                    - **Pricing (Flexible):**
+                                                    - - **Free License:** Individuals, unlimited use, commercial allowed
+                                                      - - **Company License:** Teams 4+, pay per render, prioritized support
+                                                      - **Remotion for Creators:** $25/mo per seat (low volume, local)
+                                                      - - **Remotion for Automators:** $0.01/render, $100/mo minimum (SaaS apps, prompt-to-video)
+                                                        - - **Enterprise:** Custom terms, private Slack, monthly consulting
+                                                         
+                                                          - **Tech Stack:**
+                                                          - - React + TypeScript (core)
+                                                            - - Server-side rendering
+                                                              - - Supports MP4 + other formats
+                                                                - - FFmpeg integration
+                                                                  - - Mux integration para streaming
+                                                                   
+                                                                    - **Por que é Valioso para Agentes:**
+                                                                    - - Agentes podem gerar vídeos a partir de dados/roteiros automaticamente
+                                                                      - - Perfeito para prompt-to-video applications (IA gera roteiro → Remotion gera vídeo)
+                                                                        - - Reduz necessidade de ferramentas video editing manuais
+                                                                          - - API-first: agentes conseguem criar vídeos sem UI
+                                                                            - - Scaling: Lambda permite render de milhões de vídeos
+                                                                              - - Template system: agentes reutilizam templates pré-construídos
+                                                                               
+                                                                                - **Integração com IA/Agentes:**
+                                                                                - - Editor Starter: Build custom video editors com IA
+                                                                                  - - Parametric rendering: Agentes passam dados → vídeo renderizado
+                                                                                    - - Automation: Video creation pipelines completamente automatizadas
+                                                                                      - - Banger.Show: 3D visual creation matching sound/brand
+                                                                                        - - Prompt-to-video: IA escreve roteiro → Remotion renderiza
+                                                                                         
+                                                                                          - **Community & Support:**
+                                                                                          - - 46k GitHub stars
+                                                                                            - - Discord ativo (8000+)
+                                                                                              - - 300+ contributors
+                                                                                                - - Experts disponíveis
+                                                                                                  - - Success stories documentadas
+                                                                                                   
+                                                                                                    - **Comandos Principais:**
+                                                                                                    - ```
+                                                                                                      npx create-video@latest          # Criar novo projeto
+                                                                                                      npm run dev                       # Rodar Remotion Studio
+                                                                                                      npm run build                     # Build para produção
+                                                                                                      remotion render                   # Render CLI
+                                                                                                      ```
+                                                                                                      
+                                                                                                      **Por que Está Bombando:**
+                                                                                                      - Única solução real para video-as-code
+                                                                                                      - - Perfeito fit para automação de conteúdo
+                                                                                                        - - Comunidade crescente
+                                                                                                        - Uso extenso em startup de video generation
+                                                                                                        - - Integração natural com web stack (React)
+                                                                                                          - - Serverless + scaling pronto para produção
+                                                                                                           
+                                                                                                            - **Fonte:** Remotion.dev - Make Videos Programmatically (Maio 2026)
+                                                                                                            - **GitHub:** https://github.com/remotion-dev/remotion (46k stars)
+                                                                                                            - **Website:** https://www.remotion.dev
+                                                                                                            - 
