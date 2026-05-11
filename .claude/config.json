@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+    "autoLoadEnabled": true,
+    "knowledgeBase": {
+          "primaryFile": "CLAUDE.md",
+          "systemInstructions": "SYSTEM_INSTRUCTIONS.md",
+          "skills": [
+                  ".claude/skills/load-tools.md"
+          ]
+    },
+    "evolution": {
+          "enabled": true,
+          "autoUpdate": true,
+          "trackNewTools": true
+    },
+    "metadata": {
+          "created": "2026-05-11",
+          "purpose": "Claude AI Auto-Evolution System",
+          "lastUpdated": "2026-05-11"
+    }
+}
