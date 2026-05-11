@@ -199,3 +199,69 @@ Plugins especializados por função + Chief Agent coordenador
                                                    
                                                     - **Fonte:** VS Code Release Notes - Agent Experience & Chat Improvements (Maio 2026)
                                                     - 
+Page_DownPage_DownPa
+
+---
+
+## 🎨 14. getdesign.md - Production-grade DESIGN.md Collection
+
+**O que é:**
+- Coleção de DESIGN.md em nível de produção para agentes de código IA
+- - Permite que agentes de IA gerem matching UI usando design systems reais
+  - - Built com real depth para UI generation de alta qualidade (not surface-level)
+    - - Baseado em Google's DESIGN.md spec
+      -
+      - **Estatísticas Rápidas:**
+      - - 71 arquivos DESIGN.md
+        - - Última atualização: Maio 11, 2026
+          - - 75.7k stars no GitHub
+            - - 5.5M+ monthly views
+              -
+              - **Design Systems Incluídos (Featured):**
+              - - BMW M - Motorsport aesthetic, black canvas com M tricolor stripe, full-bleed photography
+                - - Binance - Crypto exchange, yellow accent on monochrome, trading-floor urgency
+                  - - Airtable - Spreadsheet-database, colorful, friendly, structured data aesthetic
+                    - - E 68+ mais design systems inspirados de: Apple, Airbnb, Spotify, Linear, Figma, Stripe, Supabase, Nike, Netflix, Uber, Tesla, Pinterest, Notion, etc
+                      -
+                      - **Categorias de Design Systems:**
+                      - - AI & LLM Platforms (12)
+                        - - Media & Consumer Tech (12)
+                          - - Developer Tools & IDEs (7)
+                            - - Automotive (7)
+                              - - Backend, Database & DevOps (8)
+                                - - Fintech & Crypto (7)
+                                  - - Productivity & SaaS (7)
+                                    - - Design & Creative Tools (6)
+                                      - - E-commerce & Retail (5)
+                                        -
+                                        - **Como Usar:**
+                                        - - Drop DESIGN.md file no seu projeto
+                                          - - Deixa agentes de código construírem matching UI automaticamente
+                                            - - Cada DESIGN.md contém especificação completa do design system:
+                                              -   - Color palette, typography, spacing, components
+                                                  -   - Component patterns e behaviors
+                                                      -   - Example usage e best practices
+                                                          -   - Responsive design guidelines
+                                                              -
+                                                              - **Key Value para Agentes IA:**
+                                                              - - Reference de design systems real-world para UI generation
+                                                                - - Profundidade e detalhe suficiente para gerar código production-grade
+                                                                  - - Inspiração de brands reconhecidas (Apple, Tesla, Spotify, etc)
+                                                                    - - Pattern vocabulary para melhorar agentic design capabilities
+                                                                      - - Drop-in reusable para qualquer projeto
+                                                                        -
+                                                                        - **Acesso:**
+                                                                        - - Website: https://getdesign.md
+                                                                          - - Browse design system inspirations
+                                                                            - - Request private DESIGN.md para uso específico
+                                                                              - - Suporte a novos design systems (sponsor slot disponível)
+                                                                                -
+                                                                                - **Por que é valioso para Agentes:**
+                                                                                - - Agentes conseguem aprender padrões reais de design de brands famosas
+                                                                                  - - Reduz necessidade de reinventar design patterns
+                                                                                    - - Acelera geração de UI com qualidade profissional
+                                                                                      - - Provides "design vocabulary" que agentes usam para comunicar com designers
+                                                                                        - - Bridge entre desenvolvimento automatizado e design real-world
+                                                                                          -
+                                                                                          - **Fonte:** getdesign.md - Production-grade DESIGN.md Collection (Maio 2026)
+                                                                                          - ge_Down
