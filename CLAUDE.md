@@ -1,4 +1,4 @@
-# 🚀 Claude Code - Ferramentas Potencializadoras
+⚡→→→→→íáéçãíáçãáóçãã# 🚀 Claude Code - Ferramentas Potencializadoras
 
 ## Resumo Executivo
 Este é um guide de referência para as ferramentas mais poderosas do Claude Code. Use-o para potencializar seus workflows com automação inteligente, agentes paralelos e integração com sistemas externos.
