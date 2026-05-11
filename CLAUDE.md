@@ -372,3 +372,144 @@ Page_DownPage_DownPa
                                                                                                             - **GitHub:** https://github.com/remotion-dev/remotion (46k stars)
                                                                                                             - **Website:** https://www.remotion.dev
                                                                                                             - 
+
+
+---
+
+## 🎯 16. Remotion Skills para Agentes IA - Criar e Editar Vídeos Automaticamente
+
+**Skill Name:** `remotion-dev/skills`
+**Install Command:** `npx -y skills@latest add remotion-dev/skills -g -y`
+
+**O que é:**
+- Agent Skills oficiais do Remotion para criar vídeos programaticamente
+- - Integrada com Claude Code, Codex, OpenCode e outros coding agents
+  - - Permite que agentes IA criem, editem e renderizem vídeos sem UI manual
+    - - Suporta Tailwind CSS, templates e blank projects
+      - - Pronta para uso em Coding Agent Prompts
+       
+        - **Como Instalar:**
+        - ```bash
+          # Via agent skills manager (recomendado)
+          npx -y skills@latest add remotion-dev/skills -g -y
+
+          # Ou via CLI remoto
+          npx remotion skills add
+
+          # Com create-video wizard
+          npx create-video@latest
+          # Selecionar "Yes" para Agent Skills durante setup
+          ```
+
+          **Funcionalidades da Skill:**
+          - **Video Creation:** Criar vídeos MP4 do zero com código
+          - - **Adding Video:** Integrar clipes de vídeo em composições
+            - - **Adding Audio:** Adicionar trilhas de áudio, música, voiceover
+              - - **Parameterized Videos:** Passar dados dinâmicos para renderizar vídeos com diferentes conteúdos
+                - - **Captions:** Gerar e customizar legendas automaticamente
+                  - - **Rendering:** Render local, server-side ou serverless (Lambda)
+                   
+                    - **Use Cases com Agentes:**
+                    - 1. **Prompt-to-Video:** Agente recebe prompt → cria vídeo completo
+                      2. 2. **Dynamic Content:** Parametrize vídeos com dados (nomes, datas, números)
+                         3. 3. **Automation:** Gerar centenas de vídeos programaticamente
+                            4. 4. **Social Media:** Criar conteúdo para TikTok, Instagram, YouTube automaticamente
+                               5. 5. **Music Visualization:** Agente gera visualizações de música
+                                  6. 6. **Year in Review:** Criar compilações automáticas como Spotify Wrapped
+                                     7. 7. **Screencast:** Gravar e editar screencasts programaticamente
+                                       
+                                        8. **Cmdands da Skill (para Agentes):**
+                                        9. ```bash
+                                           npx remotion skills add           # Adicionar skills ao projeto
+                                           npx remotion render               # Renderizar vídeo final
+                                           npm run dev                       # Iniciar Remotion Studio (preview)
+                                           npx create-video@latest           # Setup novo projeto com skills
+                                           ```
+
+                                           **Templates Disponíveis:**
+                                           - Blank (vazio para começar do zero)
+                                           - - Hello World (exemplo básico)
+                                             - - Next.js (com framework)
+                                               - - React Router (com routing)
+                                                 - - Find a template (browser de templates)
+                                                  
+                                                   - **System Requirements:**
+                                                   - - Node.js 16+ ou Bun 1.0.3+
+                                                     - - macOS 15 (Sequoia) ou posterior
+                                                       - - Linux com Libc 2.35+
+                                                         - - Alpine Linux e nixOS: NÃO suportados
+                                                          
+                                                           - **Exemplo de Uso com Agent:**
+                                                           - ```javascript
+                                                             // Agente cria arquivo Composition.tsx
+                                                             import { Composition } from 'remotion';
+
+                                                             export const MyComposition = () => {
+                                                               return (
+                                                                 <div style={{ backgroundColor: 'black', color: 'white', flex: 1 }}>
+                                                                   <h1>Vídeo criado por IA!</h1>
+                                                                 </div>
+                                                               );
+                                                             };
+
+                                                             export const compositions = [
+                                                               {
+                                                                 id: 'MyComp',
+                                                                 component: MyComposition,
+                                                                 durationInFrames: 150,
+                                                                 fps: 30,
+                                                                 width: 1920,
+                                                                 height: 1080,
+                                                               },
+                                                             ];
+                                                             ```
+
+                                                             **Integração com Coding Agents:**
+                                                             - Claude Code: Use command palette: "Remotion Skills add"
+                                                             - - Codex/OpenCode: Cole o prompt com skill install command
+                                                               - - Any Coding Agent: Execute `npx -y skills@latest add remotion-dev/skills -g -y`
+                                                                
+                                                                 - **Fluxo Típico com Agente:**
+                                                                 - 1. **Setup:** Agent executa `npx create-video@latest` com skills
+                                                                   2. 2. **Create:** Agent cria composições React com vídeo/áudio
+                                                                      3. 3. **Configure:** Agente parametriza com dados dinâmicos
+                                                                         4. 4. **Render:** Agent executa `npx remotion render` para gerar MP4
+                                                                            5. 5. **Output:** Vídeo pronto em output/ directory
+                                                                              
+                                                                               6. **Por que é Gamechanging para Agentes:**
+                                                                               7. - Agents conseguem criar vídeos sem APIs externas
+                                                                                  - - Local-first: renderiza no PC do desenvolvedor
+                                                                                    - - Serverless: Deploy em Lambda para escalar
+                                                                                      - - Código limpo: React components = vídeos
+                                                                                        - - Zero learning curve: Se domina React, domina video creation
+                                                                                          - - Automação completa: Da criação ao render sem UI
+                                                                                           
+                                                                                            - **Performance & Scaling:**
+                                                                                            - - Local rendering: Rápido para desenvolvimento
+                                                                                              - - Serverless (Lambda): Render paralelo de milhões de vídeos
+                                                                                                - - CLI tools: Batch rendering de múltiplos vídeos
+                                                                                                  - - Caching: Frames renderizados em cache para iteração rápida
+                                                                                                   
+                                                                                                    - **Limitações & Considerações:**
+                                                                                                    - - Requer Node.js instalado localmente ou em servidor
+                                                                                                      - - FFmpeg necessário para alguns formatos
+                                                                                                        - - Rendering de 1080p60fps pode ser lento localmente
+                                                                                                          - - Para alta volume, use Lambda + serverless
+                                                                                                           
+                                                                                                            - **Próximos Passos para Agentes:**
+                                                                                                            - - Ler documentação: https://www.remotion.dev/docs
+                                                                                                              - - Começar com Hello World template
+                                                                                                                - - Explorar Remotion Studio (npm run dev)
+                                                                                                                  - - Experimentar com parameterização
+                                                                                                                    - - Depois escalar com Lambda para produção
+                                                                                                                     
+                                                                                                                      - **Comunidade & Recursos:**
+                                                                                                                      - - Discord: 8000+ members
+                                                                                                                        - - GitHub: 46k stars
+                                                                                                                          - - Success Stories disponíveis
+                                                                                                                            - - Experts para ajudar
+                                                                                                                             
+                                                                                                                              - **Fonte:** Remotion Skills - Installation Docs (Maio 2026)
+                                                                                                                              - **Skill Repository:** remotion-dev/skills
+                                                                                                                              **Official Docs:** https://www.remotion.dev/docs
+                                                                                                                                
