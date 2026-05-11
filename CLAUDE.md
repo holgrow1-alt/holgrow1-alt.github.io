@@ -157,3 +157,45 @@ Plugins especializados por função + Chief Agent coordenador
 
                                                       ## 📝 Última Atualização
                                                       Adicionado: Knowledge-Work-Plugins com Chief Agent Pattern (Maio 11, 2026)
+
+
+---
+
+## 💻 13. VS Code Agent Patterns & Chat UX - Aprendizado para Tarefas Futuras
+
+**Rendering & Chat Experience:**
+- Incremental rendering de respostas de chat: streams content block-by-block com animações enquanto tokens chegam
+- - Reduz perceived wait time em respostas longas
+  - - Configurável via settings:
+    -   - `chat.experimental.incrementalRendering.enabled` (default: true)
+        -   - `chat.experimental.incrementalRendering.animationStyle`: none, fade, rise, blur, scale, slide, reveal (default: fade)
+            -   - `chat.experimental.incrementalRendering.buffering`: off, word, paragraph (default: word)
+             
+                - **Agent Sessions Management:**
+                - - Sort agent sessions por created ou last updated
+                  - - Facilita encontrar sessões anteriores e retomar trabalho
+                    - - System notifications para background terminal commands (não precisa alternar para terminal)
+                     
+                      - **Visual Studio Code Agents App (Insiders):**
+                      - - Companion app para VS Code Insiders (preview)
+                        - - Environment focado em agents com sessões paralelas
+                          - - Capacidade de rodar multi-repo work, review diffs inline, iterar em multi-step coding tasks
+                            - - Sub-sessions: Criar sub-sessões de uma sessão pai (+ no título) para trabalho paralelo sem perder contexto
+                              - - Inline change rendering: Improvements para escanear e comparar diffs
+                                - - Launchable via: Start menu, Command Palette (`Chat: Open Agents Application`), VS Code welcome page
+                                 
+                                  - **Terminal Integration para Agents:**
+                                  - - Copilot CLI, Claude Code, Gemini CLI agora são detectados como agent CLIs (não genéricos "node")
+                                    - - Terminal title mostra qual agent está rodando
+                                      - - Launch Copilot CLI com custom terminal profile (até em fish/Git Bash)
+                                        - - Configurável via `terminal.integrated.tabs.allowAgentCliTitle` (default: true)
+                                         
+                                          - **Key Takeaways para Development:**
+                                          - - Incremental rendering melhora UX percebido em chats longos
+                                            - - Multi-session/sub-session workflow permite work paralelo sem context loss
+                                              - - Proper terminal title identification essencial para múltiplos agents rodando
+                                                - - Background terminal notifications evitam context switching
+                                                  - - Estas patterns são críticas para agent-native workflows eficientes
+                                                   
+                                                    - **Fonte:** VS Code Release Notes - Agent Experience & Chat Improvements (Maio 2026)
+                                                    - 
