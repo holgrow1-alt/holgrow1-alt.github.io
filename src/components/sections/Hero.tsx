@@ -105,9 +105,8 @@ export function Hero() {
                                             <motion.img
                                                             src={logo}
                                                             alt="EcoDrones Community"
-                                                            className="relative w-[260px] sm:w-[340px] md:w-[420px] lg:w-[500px] h-auto object-contain"
-                                                            style={{ imageRendering: "auto" }}
-                                                            animate={reduced ? {} : {
+            className="relative w-[260px] sm:w-[340px] md:w-[420px] lg:w-[500px] h-[260px] sm:h-[340px] md:h-[420px] lg:h-[500px] object-contain"                                                            style={{ imageRendering: "auto" }}
+                                                            style={{ imageRendering: "-webkit-optimize-contrast" }}
                                                                               filter: [
                                                                                                   "drop-shadow(0 0 30px rgba(0,255,136,0.5)) drop-shadow(0 0 80px rgba(0,255,136,0.3))",
                                                                                                   "drop-shadow(0 0 60px rgba(0,255,136,0.9)) drop-shadow(0 0 140px rgba(0,255,136,0.5))",
