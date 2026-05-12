@@ -71,20 +71,8 @@ export function Hero() {
                         style={{ y: contentY, opacity: contentOpacity }}
                         className="relative z-10 min-h-full flex flex-col items-center justify-center container py-10 pb-24"
                       >
-  {/* Tagline + Logo stacked */}
+  {/* Logo */}
                       <div className="flex flex-col items-center gap-3 z-10">
-                        {/* Tagline - black pill above logo */}
-          <motion.div
-                                                                               initial={{ opacity: 0, y: 14 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.4, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-                                                                  className="bg-black/90 border border-primary/50 px-6 py-2.5 rounded-full backdrop-blur-sm shadow-neon"
-                      >
-                      <span className="font-display text-2xl sm:text-3xl md:text-4xl text-primary tracking-widest text-glow">
-                        {t("hero.tagline")}
-                          </span>span>
-          </motion.div>motion.div>
-                      
                         {/* Logo - clean, no distortion */}
                                 <motion.div
                                               initial={{ scale: 0.5, opacity: 0 }}
