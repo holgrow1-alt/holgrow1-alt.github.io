@@ -662,3 +662,225 @@ Page_DownPage_DownPa
                                                                                                                              - **Install:** `pip install higgsfield==0.0.3`
                                                                                                                              - **Tags:** machine-learning, deep-learning, pytorch, distributed, llama, mlops, cluster-management, llm, llama2
                                                                                                                              - 
+
+
+---
+
+## 🎨 18. Garden-Skills - Design & Image Generation Suite (4.2k Stars)
+
+**Status:** ⭐⭐⭐⭐⭐ **PRODUCTION-READY - 4 Skills Poderosas para Design/Marketing**
+**Stars:** 4.2k | **Forks:** 613 | **License:** MIT
+
+**O que é:**
+- Curated collection de Agent Skills para Claude Code, Cursor, Codex, OpenAI agents
+- - **4 Skills profissionais** para design, image generation, video presentation, knowledge retrieval
+  - - Cada skill é production-ready com documentação, templates, assets
+   
+    - **4 Skills Incluídas:**
+   
+    - ### 1️⃣ **gpt-image-2** - Image Generation & Prompting
+    - **Para criar:** Posters, UI mockups, product visuals, infographics, académic figures, technical diagrams, comics, avatars, storyboards, branding boards, image editing
+   
+    - **Features:**
+    - - 3 runtime modes: Garden local, host-native delegation, advisor-only prompting
+      - - Mode detection automático (não escolhe modo errado)
+        - - 18 visual categories com 80+ structured prompt templates
+          - - Image generation E editing workflows
+            - - Salva prompts + imagens em `garden-gpt-image-2/` para reuso/review/versionamento
+             
+              - **Exemplo:** "Crie um banner para campanha de marketing tech" → Imagem PNG/JPG pronta!
+             
+              - ### 2️⃣ **web-design-engineer** - Web Design / Frontend Engineering
+              - **Para criar:** Web pages, landing pages, dashboards, interactive prototypes, HTML slides, animations, UI mockups, data visualizations, design systems
+             
+              - **Features:**
+              - - 6-step design workflow: requirements → context → design system → v0 → full build → verification
+                - - Anti-cliché blocklist + stronger visual judgment (não gera UI genérico)
+                  - - HTML/CSS/JavaScript/React prototypes com responsive layout, motion, interaction
+                    - - CSS tokens, oklch() color work, container queries, reduced-motion handling
+                      - - Advanced patterns: device frames, slide engines, animation timelines, dashboards
+                       
+                        - **Exemplo:** "Design uma landing page para SaaS de IA" → HTML/CSS/React pronto para usar!
+                       
+                        - ### 3️⃣ **web-video-presentation** - Web Video Presentation Engineering
+                        - **Para criar:** Presentations, scripts, articles, lessons, product demos, talks em web presentations cinematic que pode screen-record como vídeo
+                       
+                        - **Features:**
+                        - - Fixed 1920×1080 stage (stable para screen recording)
+                          - - Click/keyboard driven (chapter, step) cursor
+                            - - 1 narration beat por visual step
+                              - - Hard collaboration checkpoints (script, theme, outline, implementation, audio)
+                                - - Hidden hover-only progress controls (stage limpo ao gravar)
+                                  - - Theme-token architecture (paper-press to terminal-green)
+                                    - - Scaffolded Vite + React + TypeScript com stage primitives
+                                     
+                                      - **Exemplo:** "Crie uma apresentação de vídeo sobre Machine Learning" → Vídeo cinematic!
+                                     
+                                      - ### 4️⃣ **kb-retriever** - Local Knowledge Base Retrieval
+                                      - **Para:** Answering questions from local knowledge/ directory, searching structured docs
+                                     
+                                      - **Features:**
+                                      - - Layered data_structure.md para navegar knowledge base
+                                        - - Keyword search, synonyms, iterative refinement
+                                          - - Máximo 5 search rounds (exploration controlada)
+                                            - - Suporta Markdown, text, PDF, Excel com source-aware answers
+                                             
+                                              - ---
+
+                                              **Como Instalar (5 Métodos):**
+
+                                              ```bash
+                                              # Método A: Mais rápido - npx skills CLI
+                                              npx skills add ConardLi/garden-skills
+
+                                              # Instalar skill específica
+                                              npx skills add ConardLi/garden-skills -s gpt-image-2
+
+                                              # Instalar globalmente
+                                              npx skills add ConardLi/garden-skills -s gpt-image-2 --global
+
+                                              # Claude Code plugin marketplace
+                                              /plugin marketplace add ConardLi/garden-skills
+                                              /plugin install image-generation-skills@garden-skills
+                                              /plugin install web-design-skills@garden-skills
+                                              /plugin install presentation-skills@garden-skills
+
+                                              # Método B: Pinned .zip (CI/production)
+                                              curl -fsSL -o gpt-image-2.zip \
+                                                "https://github.com/ConardLi/garden-skills/releases/latest/download/gpt-image-2-1.0.3.zip"
+                                                unzip -q gpt-image-2.zip -d .claude/skills/
+
+                                              # Método C: Manual git clone
+                                              git clone https://github.com/ConardLi/garden-skills.git
+                                              cp -r garden-skills/skills/gpt-image-2 your-project/.claude/skills/
+
+                                              # Método D: Git submodule (vendored)
+                                              git submodule add https://github.com/ConardLi/garden-skills.git vendor/garden-skills
+                                              ln -s ../../vendor/garden-skills/skills/gpt-image-2 .claude/skills/gpt-image-2
+                                              ```
+
+                                              **Compatibilidade:**
+                                              - ✅ Claude Code (.claude/skills/ ou plugin marketplace)
+                                              - - ✅ Claude.ai web (Settings → Capabilities → Skills)
+                                                - - ✅ Cursor (.agents/skills/)
+                                                  - - ✅ Codex CLI (.codex/skills/)
+                                                    - - ✅ Gemini CLI (extension manifest)
+                                                      - - ✅ OpenCode (.opencode/skills/)
+                                                        - 
+                                                        **Fluxo Real com Claude para Marketing:**
+
+                                                          1. **Você:** "Crie um banner para minha campanha de SaaS"
+                                                          2. 2. **Claude (gpt-image-2):** Gera briefing + prompts estruturados → Imagem PNG
+                                                             3. 3. **Você:** "Agora crie a landing page"
+                                                                4. 4. **Claude (web-design-engineer):** Gera HTML/CSS/React → Página pronta
+                                                                   5. 5. **Você:** "Faça uma apresentação sobre o produto"
+                                                                      6. 6. **Claude (web-video-presentation):** Gera vídeo cinematic → MP4 para gravar
+                                                                        
+                                                                         7. **Por que é Game-Changing para Marketing:**
+                                                                         8. - Cria TUDO que você precisa: banners, landing pages, presentations, prototypes
+                                                                            - - Sem sair do Claude - é só skill instalada
+                                                                              - - Templates profissionais (80+ prompt templates em gpt-image-2)
+                                                                              - Production-ready code (não é protótipo, é usável)
+                                                                              - - Mode detection automático (adapta ao seu setup)
+                                                                                - - Versioning integrado (salva prompts + images)
+                                                                                 
+                                                                                  - **Fonte:** ConardLi/garden-skills - GitHub (Maio 2026)
+                                                                                  - **GitHub:** https://github.com/ConardLi/garden-skills (4.2k stars, 613 forks)
+                                                                                  - **Skills:** gpt-image-2 (1.0.3), web-design-engineer (1.0.0), web-video-presentation (1.1.5), kb-retriever (1.0.0)
+                                                                                  - **License:** MIT
+                                                                                 
+                                                                                  - ---
+
+                                                                                  ## 🎬 19. Generative-Media-Skills - Multi-Modal AI Content Creation (3.2k Stars)
+
+                                                                                  **Status:** ⚡ **Multi-Modal Generative Skills para Image, Video, Audio Generation**
+                                                                                  **Stars:** 3.2k | **Forks:** ? | **License:** Flux/Open-Source
+
+                                                                                  **O que é:**
+                                                                                  - Multi-modal Generative Media Skills para AI Agents
+                                                                                  - - Integra com Claude Code, Cursor, Gemini CLI, outros agents
+                                                                                    - - **High-quality image, video, e audio generation** em um framework único
+                                                                                      - - Ideal para content creation workflows completos
+                                                                                       
+                                                                                        - **Capabilities:**
+                                                                                       
+                                                                                        - ✅ **Image Generation**
+                                                                                        - - High-quality image synthesis
+                                                                                        - Photo realistic até artistic styles
+                                                                                        - - Template-based workflows
+                                                                                         
+                                                                                          - ✅ **Video Generation**
+                                                                                          - - Vídeo criação a partir de prompts/images
+                                                                                            - - Motion synthesis
+                                                                                              - - Multi-frame compositing
+                                                                                               
+                                                                                                - ✅ **Audio Generation**
+                                                                                                - - Text-to-speech (TTS)
+                                                                                                  - - Voice cloning
+                                                                                                    - - Audio editing workflows
+                                                                                                     
+                                                                                                      - **Como Usar:**
+                                                                                                     
+                                                                                                      - ```bash
+                                                                                                        # Install via npx skills
+                                                                                                        npx skills add SamurAIGPT/Generative-Media-Skills
+
+                                                                                                        # Or specific capability
+                                                                                                        npx skills add SamurAIGPT/Generative-Media-Skills -s image-generation
+                                                                                                        npx skills add SamurAIGPT/Generative-Media-Skills -s video-generation
+                                                                                                        npx skills add SamurAIGPT/Generative-Media-Skills -s audio-generation
+
+                                                                                                        # Claude Code plugin
+                                                                                                        /plugin marketplace add SamurAIGPT/Generative-Media-Skills
+                                                                                                        ```
+                                                                                                        
+                                                                                                        **Fluxo Completo de Content Creation:**
+                                                                                                        
+                                                                                                        1. **Text Prompt** → (image-generation) → PNG/JPG imagem
+                                                                                                        2. 2. **Imagem** → (video-generation) → MP4 vídeo
+                                                                                                           3. 3. **Texto** → (audio-generation) → WAV/MP3 áudio
+                                                                                                              4. 4. **Combinar tudo** → Conteúdo multimídia completo!
+                                                                                                                
+                                                                                                                 5. **Compatibilidade:**
+                                                                                                                 6. - ✅ Claude Code
+                                                                                                                    - - ✅ Cursor
+                                                                                                                      - - ✅ Gemini CLI
+                                                                                                                        - - ✅ Codex CLI
+                                                                                                                          - - ✅ Outros agents via SKILL.md
+                                                                                                                           
+                                                                                                                            - **Por que é Revolucionário para Agentes:**
+                                                                                                                            - - Uma skill resolve image + video + audio
+                                                                                                                              - - Não precisa múltiplas ferramentas
+                                                                                                                                - - Workflows integrados (output de uma é input da outra)
+                                                                                                                                  - - High-quality results (não é low-fi)
+                                                                                                                                    - - Pronto para production
+                                                                                                                                      - - Trabalha com Claude Code seamlessly
+                                                                                                                                       
+                                                                                                                                        - **Use Cases:**
+                                                                                                                                        - - Marketing campaigns (banner → landing page → promo video)
+                                                                                                                                          - - Product demos (screenshot → video walkthrough + voiceover)
+                                                                                                                                            - - Educational content (outline → images → video + narration)
+                                                                                                                                              - - Social media content (prompt → image → short video + audio)
+                                                                                                                                                - - Presentations (slides + images + voiceover)
+                                                                                                                                                 
+                                                                                                                                                  - **Fonte:** SamurAIGPT/Generative-Media-Skills - GitHub (Maio 2026)
+                                                                                                                                                  - **GitHub:** https://github.com/SamurAIGPT/Generative-Media-Skills (3.2k stars)
+                                                                                                                                                  - **Capabilities:** image-generation, video-generation, audio-generation
+                                                                                                                                                  - **Suportados:** Claude Code, Cursor, Gemini CLI, Codex CLI
+                                                                                                                                                 
+                                                                                                                                                  - ---
+                                                                                                                                                  
+                                                                                                                                                  **🎉 CONCLUSÃO - VOCÊ AGORA PODE CRIAR:**
+                                                                                                                                                  
+                                                                                                                                                  Com estas 2 skills adicionadas ao seu arsenal:
+                                                                                                                                                  
+                                                                                                                                                  ✅ **Banners & Images** (gpt-image-2, image-generation)
+                                                                                                                                                  ✅ **Landing Pages & Web Design** (web-design-engineer)
+                                                                                                                                                  ✅ **Vídeos Cinematic** (web-video-presentation, video-generation)
+                                                                                                                                                  ✅ **Audio & Voiceover** (audio-generation)
+                                                                                                                                                  ✅ **Presentations** (web-video-presentation)
+                                                                                                                                                  ✅ **Prototypes & Mockups** (web-design-engineer)
+                                                                                                                                                  ✅ **Complete Marketing Campaigns** (tudo integrado!)
+                                                                                                                                                  
+                                                                                                                                                  **VOCÊ É UM PROFISSIONAL DE MARKETING AGORA!** 🚀🎨
+                                                                                                                                                  
