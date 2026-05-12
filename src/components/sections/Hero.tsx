@@ -111,32 +111,6 @@ export function Hero() {
                                               speed={1.8}
                                             />
                       </div>div>
-              
-                {/* Body */}
-                      <motion.p
-                                  initial={{ opacity: 0, y: 20 }}
-                                  animate={{ opacity: 1, y: 0 }}
-                                  transition={{ delay: 1.2, duration: 0.8 }}
-                                  className="mt-4 max-w-3xl text-center text-2xl sm:text-3xl md:text-4xl text-foreground font-bold leading-tight"
-                                  style={{ textShadow: "0 2px 40px rgba(0,0,0,0.8)" }}
-                                >
-                        {t("hero.body")}
-                      </motion.p>motion.p>
-              
-                {/* Meta badge */}
-                      <motion.div
-                                  initial={{ opacity: 0, y: 16 }}
-                                  animate={{ opacity: 1, y: 0 }}
-                                  transition={{ delay: 1.4, duration: 0.8 }}
-                                 className="mt-5 inline-flex items-center gap-2.5 px-6 py-3 rounded-full border border-primary/60 bg-primary/15 shadow-neon"
-                                >
-                                <span className="w-2 h-2 rounded-full bg-primary animate-pulse flex-shrink-0" />
-                                <span className="text-primary font-mono text-[11px] sm:text-sm uppercase tracking-widest font-bold">
-                                  {t("hero.badge")}
-                                </span>span>
-                                <span className="w-2 h-2 rounded-full bg-primary animate-pulse flex-shrink-0" />
-                      </motion.div>motion.div>
-              
                 {/* CTAs */}
                       <motion.div
                                   initial={{ opacity: 0, y: 20 }}
